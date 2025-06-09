@@ -1,4 +1,4 @@
-name: gospl
+name: gospl1
 channels:
   - conda-forge
   - defaults
@@ -8,9 +8,8 @@ dependencies:
   - setuptools>=61.0
   - pkg-config
   - build
-  - numpy
+  - numpy=1.23.5
   - petsc4py
-  - pip
   - scipy
   - numpy-indexed
   - pandas
@@ -44,6 +43,7 @@ dependencies:
   - pyvista
   - pyproj 
   - triangle
+  - pip
   - pip:
     - git+https://github.com/Geodels/isoFlex.git
-    - git+https://github.com/Geodels/gospl.git
+    - -e /home/eason/gospl
