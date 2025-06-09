@@ -1,4 +1,5 @@
-# 安装命令:
+
+# WIN10 WSL2 Ubuntu 24.04.2 LTS 安装命令:
 
 ## 列出虚拟环境
 ```
@@ -14,6 +15,7 @@ conda env create -n gospl1 -f environment.yml
 ## 安装 jupyter
 ```
 conda install jupyter
+
 ```
 
 
